@@ -9,7 +9,14 @@ body, h1{
 }
 
 
-.main-container, .first-container, .first-container-first-row, .first-container-second-row, .second-container, .second-container-second-row, .card {
+.main-container,
+.first-container,
+.first-container-first-row,
+.first-container-second-row,
+.second-container,
+.second-container-second-row,
+.card,
+.third-container {
     display: flex;
 }
 
@@ -41,7 +48,17 @@ flex-direction: column;
     background-color: #3882F6;
 }
 
-.li
+.gray-background{
+    background-color: #e5e7eb;;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.italic{
+    font-style: italic;
+}
 
 .size18{
     font-size: 18px;
@@ -112,12 +129,19 @@ button{
     font-family: 'Roboto', sans-serif;
 }
 
-.second-container{
-    display: flex;
+.second-container,
+.third-container{
     flex-direction: column;
-    width: 70%;
     margin: 0 auto;
     align-items: center;
+}
+
+.second-container{
+    width: 70%;
+}
+
+.third-container{
+    width: 50%;
 }
 
 .second-container-second-row{
@@ -139,3 +163,11 @@ button{
     border: 0.5rem solid #3882F6;
     border-radius: 0.5rem;
 }
+
+.quote-author{
+    align-self: flex-end;
+    display: flex;
+}
+
+
+   
