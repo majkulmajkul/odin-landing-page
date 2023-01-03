@@ -18,7 +18,8 @@ body, h1, h4, p{
 .card,
 .third-container,
 .fourth-container,
-.call-to-action {
+.call-to-action,
+.fifth-container {
     display: flex;
 }
 
@@ -108,7 +109,8 @@ flex-direction: column;
 
 }
 
-.first-container-second-row-column-one, .first-container-second-row-column-two{
+.first-container-second-row-column-one, 
+.first-container-second-row-column-two{
     flex: 1;
 }
 
@@ -180,7 +182,8 @@ button{
     display: flex;
 }
 
-.fourth-container{
+.fourth-container,
+.fifth-container{
     align-items: center;
     justify-content: center;
 }
@@ -193,3 +196,7 @@ button{
     gap:4rem;
 }
 
+.fifth-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
