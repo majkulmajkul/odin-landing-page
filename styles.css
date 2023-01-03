@@ -1,4 +1,4 @@
-body, h1, p{
+body, h1, h4, p{
     margin: 0;
     padding: 0;
     
@@ -16,7 +16,9 @@ body, h1, p{
 .second-container,
 .second-container-second-row,
 .card,
-.third-container {
+.third-container,
+.fourth-container,
+.call-to-action {
     display: flex;
 }
 
@@ -50,6 +52,10 @@ flex-direction: column;
 
 .gray-background{
     background-color: #e5e7eb;;
+}
+
+.white-border{
+    border: 0.125rem solid #F9FAF8;
 }
 
 .light{
@@ -174,5 +180,16 @@ button{
     display: flex;
 }
 
+.fourth-container{
+    align-items: center;
+    justify-content: center;
+}
 
-   
+.call-to-action{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    gap:4rem;
+}
+
